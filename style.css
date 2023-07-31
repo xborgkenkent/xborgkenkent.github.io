@@ -12,6 +12,7 @@ body {
     background-color: #002B36;
     height: 100vh;
     width: 100%;
+    overflow-x: hidden;
 }
 
 .nav {
@@ -66,6 +67,7 @@ body {
 
 .main {
     display: flex;
+    column-gap: 2rem;
     position: relative;
     justify-content: center;
     align-items: center;
@@ -85,15 +87,100 @@ body {
 .main span {
     color: antiquewhite;
     font-weight: 900;
+    font-size: 4rem;
 }
 
-.main .photo img{
-    position: relative;
+.main .socials{
+    padding: 1rem 1.5rem;
+    background-color: transparent;
+    color: antiquewhite;
+    text-decoration: none;
+
 }
+
+.main h1 {
+    color: antiquewhite;
+}
+
+.main .photo {
+    position: relative;
+
+}
+
+.main .socials img {
+    background-color: transparent;
+    height: 30px;
+    width: 30px;
+}
+
+.main .socials img:hover {
+    background-color: #109D8D;
+}
+
+.exp-background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 20vh;
+    color: antiquewhite;
+    z-index: -1;
+}
+
+.exp-background .work-background .exp img{
+    height: 20rem;
+    width: 20rem;
+}
+
+.exp-background .work-background .exp{
+    display: flex;
+    flex-direction: row;
+    column-gap: 5rem;
+    margin-top: 4rem;
+}
+
+.exp-background .work-background .exp .details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    
+}
+
 
 .educ-background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     position: relative;
-   
-    top: 10%;
-    height: 500px;
+    top: 40vh;
+    color: antiquewhite;
+    z-index: -1;
 }
+
+.educ-background .sc-background .exp img{
+    height: 20rem;
+    width: 20rem;
+}
+
+.educ-background .sc-background .exp .uclm-logo{
+    border-radius: 10%;
+}
+
+.educ-background .sc-background .exp{
+    display: flex;
+    flex-direction: row;
+    column-gap: 5rem;
+    margin-top: 4rem;
+}
+
+.educ-background .sc-background .exp .details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    
+}
+
+
+
