@@ -10,6 +10,7 @@
 body {
     display: flex;
     background-color: #002B36;
+    margin-right: 10%;
     height: 100vh;
     width: 100%;
     overflow-x: hidden;
@@ -87,11 +88,11 @@ body {
 .main span {
     color: antiquewhite;
     font-weight: 900;
-    font-size: 4rem;
+    font-size: 2rem;
 }
 
 .main .socials{
-    padding: 1rem 1.5rem;
+    padding: 1rem 0rem;
     background-color: transparent;
     color: antiquewhite;
     text-decoration: none;
@@ -104,19 +105,31 @@ body {
 
 .main .photo {
     position: relative;
+    
+}
+
+.main .photo img {
+    position: relative;
+    border-radius: 100%;
 
 }
 
 .main .socials img {
     background-color: transparent;
-    height: 30px;
-    width: 30px;
+    height: 3rem;
+    width: 3rem;
+    margin-right: .5rem;
 }
 
 .main .socials img:hover {
     background-color: #109D8D;
 }
 
+.educ-achievements {
+    display: flex;
+    justify-content: center;
+    column-gap: 4rem;
+}
 .exp-background {
     display: flex;
     flex-direction: column;
@@ -128,8 +141,8 @@ body {
 }
 
 .exp-background .work-background .exp img{
-    height: 20rem;
-    width: 20rem;
+    height: 10rem;
+    width: 10rem;
 }
 
 .exp-background .work-background .exp{
@@ -159,8 +172,8 @@ body {
 }
 
 .educ-background .sc-background .exp img{
-    height: 20rem;
-    width: 20rem;
+    height: 10rem;
+    width: 10rem;
 }
 
 .educ-background .sc-background .exp .uclm-logo{
