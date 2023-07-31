@@ -172,6 +172,7 @@ body {
     flex-direction: row;
     column-gap: 5rem;
     margin-top: 4rem;
+    margin-left: 8rem;
 }
 
 .educ-background .sc-background .exp .details{
