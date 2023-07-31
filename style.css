@@ -75,7 +75,7 @@ body {
     z-index: -1;
     top: 10vh;
     left: 10vw;
-    max-width: 80%;
+    width: 80%;
 }
 
 .main p {
@@ -127,6 +127,7 @@ body {
     display: flex;
     justify-content: center;
     column-gap: 4rem;
+    margin-right: 5%;
 }
 .exp-background {
     display: flex;
@@ -218,11 +219,42 @@ img:hover {
     align-items: center;
     position: relative;
     top: 80vh;
-    
     color: antiquewhite;
     z-index: -1;
-    width: 80%;
+    max-width: 80%;
     left: 10%;
 }
 
+.proj-act {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 10vh;
+}
+
+.proj-act .content-project{
+    display: flex;
+    column-gap: 5rem;
+}
+.proj-act .exp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 5rem;
+    margin-bottom: 10rem;
+}
+
+.proj-act .exp img{
+    max-width: 70ch;
+}
+
+
+.proj-act .exp .details h2{
+    max-width: 40ch;
+}
+
+.proj-act .exp .details p{
+    max-width: 70ch;
+}
 
