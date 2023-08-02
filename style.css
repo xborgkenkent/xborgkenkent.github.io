@@ -82,7 +82,15 @@ body {
     color: #78FAD8;
     line-height: 3rem;
     font-size: larger;
-    
+    text-align: justify;
+}
+
+.main .btn-contact {
+    margin-top: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+    background-color: transparent;
+    color: antiquewhite;
 }
 
 .main span {
